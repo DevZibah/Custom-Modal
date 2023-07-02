@@ -20,7 +20,7 @@ function App() {
     <div>
       <main className='d-flex header-content p-lg-5'>
         <header>
-          <h4>Custom Modal</h4>
+          <h4 className='text-2xl font-bold underline'>Custom Modal</h4>
         </header>
         <article className='d-flex header-text'>
           <p onClick={() => openModal(buy)}>Buy</p>
